@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <p style="font-size: 20px;">Enter your details below</p>
+        <ul>
+            <li>
+                <input type="email" value="your_email@gmail.com"> 
+            </li> <br>
+            <li>
+                <input type="password" name="password" placeholder="Password">
+            </li>
+        </ul>
+        <h3><i>!Type a complex password with 8-20 characters.</i></h3>
+        <ul>
+            <li>
+                <input type="tel" name="phone" placeholder="+20 Phone Number">
+            </li>
+        </ul>
+        <hr>
+        <h2><i>Enter your profession:</i></h2>
+        <ul>
+            <li>
+                <input type="radio" name="profession" id="student" value="student">
+                <label for="student">Student</label>
+                <input type="radio" name="profession" id="teacher" value="teacher">
+                <label for="teacher">Teacher</label>
+                <input type="radio" name="profession" id="developer" value="developer">
+                <label for="developer">Developer</label> 
+                
+            </li>
+        </ul>
+        <span style="font-size: 20px; color: black;">Choose the stage if you are (student)</span>
+
+        <select name="stage">
+            <option value="primary">first primary</option>
+            <option value="secondary">first secondary</option>
+        </select>
+        <hr>
+        <ul>
+            <li>
+                <label for="birth" style="font-size: 20px;">Enter your Birth date.</label>
+                <input type="date" name="birthdate" id="birth">
+            </li>
+        </ul>
+        <hr>
+        <ul>
+            <li>
+                <input type="text" name="notes" id="notes" placeholder="Any notes">
+            </li>
+        </ul>
+        <hr>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html
